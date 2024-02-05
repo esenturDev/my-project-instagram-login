@@ -1,0 +1,49 @@
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 85px;
+	.content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.texts {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 15px;
+			h2 {
+				color: rgb(168, 45, 168);
+				font-size: 40px;
+				font-weight: 700;
+			}
+			.divtext {
+				display: flex;
+				flex-direction: column;
+				gap: 15px;
+				h3 {
+					color: rgb(224, 43, 224);
+					font-size: 35px;
+					font-weight: 655;
+				}
+				p {
+					color: aliceblue;
+					font-size: 22px;
+					font-weight: 500;
+				}
+			}
+		}
+		.photos {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+				width: 100%;
+				height: auto;
+				border-radius: 75px;
+			}
+		}
+	}
+}

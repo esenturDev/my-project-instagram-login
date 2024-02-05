@@ -1,0 +1,39 @@
+.divmodal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.modalka {
+		background: #ded7d7;
+		box-sizing: 2px 2px 2px 5px #e7e3e380;
+		padding: 20px;
+		border-radius: 5px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 200px;
+		height: 200px;
+		border-radius: 15px;
+		gap: 15px;
+		.modal {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 15px;
+		}
+		.div {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 15px;
+		}
+	}
+}
